@@ -30,18 +30,11 @@ class MainFragment : Fragment(), View.OnClickListener {
         super.onViewCreated(view, savedInstanceState)
 
         navController = Navigation.findNavController(view);
-        view.findViewById<Button>(R.id.view_transactions_btn).setOnClickListener(this)
-        view.findViewById<Button>(R.id.send_money_btn).setOnClickListener(this)
         //
 
     }
 
     override fun onClick(v: View?) {
-
-        when(v!!.id){
-            R.id.view_transactions_btn ->  navController.navigate(R.id.action_mainFragment_to_viewTransactionFragment)
-            R.id.send_money_btn -> navController.navigate(R.id.action_mainFragment_to_chooseRecipientFragment)
-        }
 
     }
 

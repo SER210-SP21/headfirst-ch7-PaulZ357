@@ -8,12 +8,12 @@ plugins {
 
 android {
     namespace = "edu.quinnipiac.ls03_nav_demo"
-    compileSdk = 34
+    compileSdk = 33
 
     defaultConfig {
         applicationId = "edu.quinnipiac.ls03_nav_demo"
         minSdk = 22
-        targetSdk = 34
+        targetSdk = 33
         versionCode = 1
         versionName = "1.0"
 
